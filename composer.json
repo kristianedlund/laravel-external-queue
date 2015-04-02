@@ -1,6 +1,7 @@
 {
     "name": "kristianedlund/laravel-external-queue",
     "description": "Use Laravel queues for sending messages between distributed systems",
+    "keywords": ["laravel", "queue", "sqs"],
     "license": "MIT",
     "authors": [
         {
@@ -18,5 +19,5 @@
             "Kristianedlund\\LaravelExternalQueue\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
