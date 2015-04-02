@@ -1,0 +1,22 @@
+{
+    "name": "kristianedlund/laravel-external-queue",
+    "description": "Use Laravel queues for sending messages between distributed systems",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristian Edlund",
+            "email": "edlund@kristianedlund.dk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "aws/aws-sdk-php": "~2.7",
+        "illuminate/queue": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kristianedlund\\LaravelExternalQueue\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
