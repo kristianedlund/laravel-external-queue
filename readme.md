@@ -13,7 +13,7 @@ Pull this package in through Composer.
 ```js
 {
     "require": {
-        "kristianedlund/laravel-external-queue": "0.1"
+        "kristianedlund/laravel-external-queue": "1.0"
     }
 }
 ```
@@ -46,7 +46,7 @@ Publish the package config file to your application.
 First of all you set up an external queue in the normal queue config file in laravel. It should look like
 
 ```php
-'sqs' => [
+'externalsqs' => [
     'driver' => 'externalsqs',
     'key'    => 'your-public-key',
     'secret' => 'your-secret-key',
